@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto,sans-serif;
+}
+
+
+header{
+    padding: 10px; 
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color:white;
+}
+
+header p{
+    display: flex;
+    text-justify: center;
+    text-align: center;
+}
+.pizza{
+    padding-left: 10px;
+    color: green;
+
+    
+}
+.front{
+    color: red;
+}
+
+
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 13px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main h2{
+    color: red;
+}
+main span{
+    color: white;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+    background: #E5E5E5;
+    gap: .5em;
+}
+.cardLeft{
+    padding: 1em;
+    
+    background-image: url("../img/delivery.jpg");
+    width: 490px;
+    height: 350px;
+}
+.cardRight{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 490px;
+    height: 350px;
+    background: white;
+}
+
+.top{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.bottom{
+    /* border: 3px solid purple; */
+    display: flex;
+    width: 490px;
+    height: 100%;
+    justify-content: space-evenly;
+    
+    align-items: center;
+}
+
+.bottomLeft{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    margin-top: .5em;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 10px;
+}
+
+.bottomLeft p{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottomRight{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    
+}
+footer{
+    padding: 1em;
+    height: 100px;
+    background: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer ul {
+    display:flex;
+    flex-direction: column;
+    gap: .2em;
+    list-style:none;
+}
+
