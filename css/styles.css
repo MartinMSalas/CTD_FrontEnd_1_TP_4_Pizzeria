@@ -2,9 +2,12 @@
     margin: 10;
     padding: 10;
     box-sizing: border-box;
-    font-family: Roboto;
+    
 }
 
+main{
+    font-family: Roboto;
+}
 
 header{
     padding: 11px; 
